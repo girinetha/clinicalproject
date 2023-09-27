@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'clinicalproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'clinicaldb',
         'HOST':'localhost',
         'PASSWORD':'9696',
