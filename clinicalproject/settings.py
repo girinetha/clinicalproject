@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'clinicalproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'clinicaldb',
-        'HOST':'',
-        'PASSWORD':'9696',
+        'NAME': 'clinicalproject',
+        'HOST':'clinicalproject.cdso6g6owjtn.eu-north-1.rds.amazonaws.com',
+        'PASSWORD':'96969696',
         'PORT':'3306',
         'USER':'root',
     }
